@@ -7,8 +7,6 @@ export function Details() {
   return (
     <Container>
       <Header />
-      <h1>Hello World!</h1>
-      <span>Antonio Teixeira</span>
       <Button title="Voltar" />
     </Container>
   );
