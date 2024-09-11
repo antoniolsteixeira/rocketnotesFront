@@ -5,7 +5,7 @@ import { ThemeProvider } from 'styled-components';
 
 import GlobalStyles from './styles/global'
 
-import { Home } from './pages/Home';
+import { Profile } from './pages/Profile';
 
 import theme from './styles/theme';
 
@@ -13,7 +13,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <Home />
+      <Profile />
     </ThemeProvider>
   </StrictMode>,
 )
